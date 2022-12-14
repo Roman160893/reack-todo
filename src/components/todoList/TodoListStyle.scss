@@ -1,0 +1,39 @@
+.todo__list {
+  align-self: start;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  &-item {
+    border: 1px solid;
+    margin: 2px 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: rgb(5, 25, 175);
+    color: white;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+    & label {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 100%;
+      gap: 5px;
+    }
+    &:hover {
+      background: rgb(42, 31, 124);
+    }
+  }
+
+  & button {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    &:hover {
+      background: rgb(218, 230, 228);
+    }
+  }
+}
